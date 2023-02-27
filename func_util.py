@@ -25,7 +25,7 @@ from wordcloud import ImageColorGenerator
 
 DetectorFactory.seed = 1
 
-api_key = 'AIzaSyAVwyzVKx3Y8NVhROQ0rk4PDlq-4MAGJYc'
+api_key = *****'
 
 
 import streamlit as st
@@ -350,7 +350,7 @@ def oneai_get_emotions(input):
     Returns:
         JSON: a dictionary with the response to a request sent using the OneAI API
     """
-    api_key = "40b7dbd3-eb8c-4aca-b395-95a80706a6ed"
+    api_key = "*****"
     url = "https://api.oneai.com/api/v0/pipeline"
     headers = {
     "api-key": api_key, 
