@@ -16,7 +16,7 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 pd.options.display.max_colwidth = 300
-youtube_api_key = 'AIzaSyAVwyzVKx3Y8NVhROQ0rk4PDlq-4MAGJYc'
+youtube_api_key = '*****'
 
 matplotlib.use("agg")
 _lock = RendererAgg.lock
